@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-router-quotes"]=this["webpackJsonpreact-router-quotes"]||[]).push([[5],{56:function(e,t,r){"use strict";r.r(t);var c=r(0);t.default=function(){return Object(c.jsx)("div",{className:"centered",children:Object(c.jsx)("p",{children:"Page not found"})})}}}]);
+//# sourceMappingURL=5.03c0b776.chunk.js.map

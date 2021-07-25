@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/React-Router-quotes/static/css/main.a1ce79aa.chunk.css",
-    "main.js": "/React-Router-quotes/static/js/main.7e2d7093.chunk.js",
-    "main.js.map": "/React-Router-quotes/static/js/main.7e2d7093.chunk.js.map",
-    "runtime-main.js": "/React-Router-quotes/static/js/runtime-main.e85a8723.js",
-    "runtime-main.js.map": "/React-Router-quotes/static/js/runtime-main.e85a8723.js.map",
-    "static/js/2.0a59b134.chunk.js": "/React-Router-quotes/static/js/2.0a59b134.chunk.js",
-    "static/js/2.0a59b134.chunk.js.map": "/React-Router-quotes/static/js/2.0a59b134.chunk.js.map",
+    "main.js": "/React-Router-quotes/static/js/main.969245d0.chunk.js",
+    "main.js.map": "/React-Router-quotes/static/js/main.969245d0.chunk.js.map",
+    "runtime-main.js": "/React-Router-quotes/static/js/runtime-main.c6687c38.js",
+    "runtime-main.js.map": "/React-Router-quotes/static/js/runtime-main.c6687c38.js.map",
+    "static/js/2.f40fbade.chunk.js": "/React-Router-quotes/static/js/2.f40fbade.chunk.js",
+    "static/js/2.f40fbade.chunk.js.map": "/React-Router-quotes/static/js/2.f40fbade.chunk.js.map",
     "static/css/3.9e92c831.chunk.css": "/React-Router-quotes/static/css/3.9e92c831.chunk.css",
-    "static/js/3.51cb2ec5.chunk.js": "/React-Router-quotes/static/js/3.51cb2ec5.chunk.js",
-    "static/js/3.51cb2ec5.chunk.js.map": "/React-Router-quotes/static/js/3.51cb2ec5.chunk.js.map",
+    "static/js/3.b2c8f932.chunk.js": "/React-Router-quotes/static/js/3.b2c8f932.chunk.js",
+    "static/js/3.b2c8f932.chunk.js.map": "/React-Router-quotes/static/js/3.b2c8f932.chunk.js.map",
     "static/css/4.ba65db72.chunk.css": "/React-Router-quotes/static/css/4.ba65db72.chunk.css",
     "static/js/4.9c23f23c.chunk.js": "/React-Router-quotes/static/js/4.9c23f23c.chunk.js",
     "static/js/4.9c23f23c.chunk.js.map": "/React-Router-quotes/static/js/4.9c23f23c.chunk.js.map",
@@ -19,12 +19,12 @@
     "static/css/3.9e92c831.chunk.css.map": "/React-Router-quotes/static/css/3.9e92c831.chunk.css.map",
     "static/css/4.ba65db72.chunk.css.map": "/React-Router-quotes/static/css/4.ba65db72.chunk.css.map",
     "static/css/main.a1ce79aa.chunk.css.map": "/React-Router-quotes/static/css/main.a1ce79aa.chunk.css.map",
-    "static/js/2.0a59b134.chunk.js.LICENSE.txt": "/React-Router-quotes/static/js/2.0a59b134.chunk.js.LICENSE.txt"
+    "static/js/2.f40fbade.chunk.js.LICENSE.txt": "/React-Router-quotes/static/js/2.f40fbade.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e85a8723.js",
-    "static/js/2.0a59b134.chunk.js",
+    "static/js/runtime-main.c6687c38.js",
+    "static/js/2.f40fbade.chunk.js",
     "static/css/main.a1ce79aa.chunk.css",
-    "static/js/main.7e2d7093.chunk.js"
+    "static/js/main.969245d0.chunk.js"
   ]
 }

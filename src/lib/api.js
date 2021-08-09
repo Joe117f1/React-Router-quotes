@@ -1,5 +1,4 @@
 const FIREBASE_URL = process.env.REACT_APP_NONSECRET_URL;
-// const FIREBASE_API = 'https://react-http001-default-rtdb.firebaseio.com';
 
 export async function getAllQuotes() {
   const response = await fetch(`${FIREBASE_URL}/quotes.json`);
@@ -7,7 +6,7 @@ export async function getAllQuotes() {
 
   if (!response.ok) {
     throw new Error(data.message || 'Could not fetch quotes.');
-  };
+  }
 
   const transformedQuotes = [];
 
@@ -18,10 +17,10 @@ export async function getAllQuotes() {
     };
 
     transformedQuotes.push(quoteObj);
-  };
+  }
 
   return transformedQuotes;
-};
+}
 
 export async function getSingleQuote(quoteId) {
   const response = await fetch(`${FIREBASE_URL}/quotes/${quoteId}.json`);
@@ -29,7 +28,7 @@ export async function getSingleQuote(quoteId) {
 
   if (!response.ok) {
     throw new Error(data.message || 'Could not fetch quote.');
-  };
+  }
 
   const loadedQuote = {
     id: quoteId,
@@ -37,7 +36,7 @@ export async function getSingleQuote(quoteId) {
   };
 
   return loadedQuote;
-};
+}
 
 export async function addQuote(quoteData) {
   const response = await fetch(`${FIREBASE_URL}/quotes.json`, {
@@ -54,7 +53,7 @@ export async function addQuote(quoteData) {
   }
 
   return null;
-};
+}
 
 export async function addComment(requestData) {
   const response = await fetch(`${FIREBASE_URL}/comments/${requestData.quoteId}.json`, {
@@ -68,10 +67,10 @@ export async function addComment(requestData) {
 
   if (!response.ok) {
     throw new Error(data.message || 'Could not add comment.');
-  };
+  }
 
   return { commentId: data.name };
-};
+}
 
 export async function getAllComments(quoteId) {
   const response = await fetch(`${FIREBASE_URL}/comments/${quoteId}.json`);
@@ -80,7 +79,7 @@ export async function getAllComments(quoteId) {
 
   if (!response.ok) {
     throw new Error(data.message || 'Could not get comments.');
-  };
+  }
 
   const transformedComments = [];
 
@@ -91,7 +90,7 @@ export async function getAllComments(quoteId) {
     };
 
     transformedComments.push(commentObj);
-  };
+  }
 
   return transformedComments;
-};
+}

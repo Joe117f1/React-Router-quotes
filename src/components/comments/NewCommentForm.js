@@ -1,5 +1,4 @@
 import { useRef, useEffect } from 'react';
-
 import useHttp from '../../hooks/use-http';
 import { addComment } from '../../lib/api';
 import LoadingSpinner from '../UI/LoadingSpinner';
@@ -13,9 +12,10 @@ const NewCommentForm = (props) => {
   const { onAddComment } = props;
 
   useEffect(() => {
-    if (status === 'completed' && !error)
-      onAddComment();
+    if (status === 'completed' && !error){
+       onAddComment();
       commentTextRef.current.value = '';
+    }
   },
     [status, error, onAddComment])
 

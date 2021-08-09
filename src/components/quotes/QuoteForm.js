@@ -1,6 +1,5 @@
 import { useRef, useState, Fragment } from 'react';
 import { Prompt } from 'react-router-dom';
-
 import Card from '../UI/Card';
 import LoadingSpinner from '../UI/LoadingSpinner';
 import classes from './QuoteForm.module.css';
@@ -24,7 +23,7 @@ const QuoteForm = (props) => {
       props.onAddQuote({ author: enteredAuthor, text: enteredText });
     } else {
       setHasError(true);
-    };
+    }
   };
 
   const formFocusHandler = () => {
@@ -47,7 +46,6 @@ const QuoteForm = (props) => {
               <LoadingSpinner />
             </div>
           )}
-
           <div className={classes.control}>
             <label htmlFor='author'>Author</label>
             <input type='text' id='author' ref={authorInputRef} />

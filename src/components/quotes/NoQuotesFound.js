@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-
 import classes from './NoQuotesFound.module.css';
 
 const NoQuotesFound = () => {

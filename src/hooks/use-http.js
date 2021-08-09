@@ -7,7 +7,7 @@ const httpReducer = (state, action) => {
       error: null,
       status: 'pending',
     };
-  };
+  }
 
   if (action.type === 'SUCCESS') {
     return {
@@ -15,7 +15,7 @@ const httpReducer = (state, action) => {
       error: null,
       status: 'completed',
     };
-  };
+  }
 
   if (action.type === 'ERROR') {
     return {
@@ -23,10 +23,10 @@ const httpReducer = (state, action) => {
       error: action.errorMessage,
       status: 'completed',
     };
-  };
+  }
 
   return state;
-}
+};
 
 const useHttp = (requestFunction, startWithPending = false) => {
   const [httpState, dispatch] = useReducer(httpReducer, {
